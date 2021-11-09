@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/wolf-g1d0bf1c17_640.png" alt="wolf logo" id="header-img">
+                </a>
+            </div>
+            <nav id="nav-bar"class="nav-bar">
+                <a href="#video" class="nav-link">Home</a>
+                <a href="#more-info" class="nav-link">More info</a>
+                <a href="#footer" class="nav-link">Contact us</a>
+            </nav>
+        </div>
+    </header>
+
+    <sectiom class="video">
+        <h1>Wolves</h1>
+        <p>Find out how many wolf species exist</p>
+        <div class="container-iframe">
+            <iframe 
+                id="video"
+                class="responsive-iframe"
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/YXMo5w9aMNs" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </sectiom>
+    
+    <div class="container">
+        <section id="more-info" class="more-info">
+            <div class="info">
+                <h2>What are gray wolves?</h2>
+                <p>
+                    Wolves are legendary because of their spine-tingling howl,
+                    which they use to communicate. A lone wolf howls to attract
+                    the attention of his pack, while communal howls may send territorial
+                    messages from one pack to another. Some howls are confrontational.
+                    Much like barking domestic dogs, wolves may simply begin howling
+                    because a nearby wolf has already begun..
+                </p>
+            </div>
+
+            <div class="info">
+                <h2>Population and conservation</h2>
+                <p>
+                    Wolves are the largest members of the dog family.
+                    Adaptable gray wolves are by far the most common
+                    and were once found all over the Northern Hemisphere.
+                    But wolves and humans have a long adversarial history.
+                    Though they almost never attack humans, wolves are considered
+                    one of the animal world's most fearsome natural villains.
+                    They do attack domestic animals, and countless wolves have been shot,
+                    trapped, and poisoned because of this tendency.
+                </p>
+            </div>
+
+            <div class="info">
+                <h2>Kind of wolves</h2>
+                <div class="wolves">
+                    <div class="wolf">
+                        <div class="wolf-image">
+                            <img src="img/Tundra wolf.jpg" alt="Tundra wolf">
+                        </div>
+                        <p class="wolf-name">Tundra Wolf</p>
+                    </div>
+
+                    <div class="wolf">
+                        <div class="wolf-image">
+                            <img src="img/Arabian wolf.jpeg" alt="Arabian wolf">
+                        </div>
+                        <p class="wolf-name">Arabian Wolf</p>
+                    </div>
+
+                    <div class="wolf">
+                        <div class="wolf-image">
+                            <img src="img/Steppe WOlf.jpg" alt="Steppe wolf">
+                        </div>
+                        <p class="wolf-name">Steppe Wolf</p>
+                    </div>
+
+                    <div class="wolf">
+                        <div class="wolf-image">
+                            <img src="img/Himalayan wolf.jpg" alt="Himalayan wolf">
+                        </div>
+                        <p class="wolf-name">Himalayan Wolf</p>
+                    </div>
+
+                    <div class="wolf">
+                        <div class="wolf-image">
+                            <img src="img/Mongolian wolf.jpg" alt="Mongolian wolf">
+                        </div>
+                        <p class="wolf-name">Mongolian Wolf</p>
+                    </div>
+
+                    <div class="wolf">
+                        <div class="wolf-image">
+                            <img src="img/New Guinea wolf.jpg" alt="New Guinea wolf">
+                        </div>
+                        <p class="wolf-name">New Guinea Wolf</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <h3>If you want to know more about wolves let us know</h3>
+            <form action="https://www.freecodecamp.com/email-submit" id="form" class="form">
+                <div class="form-field">
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                    <input type="submit" id="submit" class="btn-submit" value="Submit">
+                </div>
+            </form>
+
+            <div class="footer-info">
+                <p>Copyright &copy; 2021 | Designed by <a href="https://github.com/isaacsosadj" target="_blank">Isaac Sosa</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
